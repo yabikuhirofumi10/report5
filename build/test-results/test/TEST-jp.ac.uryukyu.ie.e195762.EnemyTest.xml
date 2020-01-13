@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="jp.ac.uryukyu.ie.e195762.EnemyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-13T09:58:09" hostname="yabikuhakubunnoMacBook-Air.local" time="0.04">
+  <properties/>
+  <testcase name="attack()" classname="jp.ac.uryukyu.ie.e195762.EnemyTest" time="0.04"/>
+  <system-out><![CDATA[テスト勇者のHPは10。攻撃力は5です。
+テストスライムのHPは6。攻撃力は3です。
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
