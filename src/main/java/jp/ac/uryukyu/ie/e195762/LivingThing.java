@@ -32,6 +32,11 @@ public class LivingThing {
         return dead;
     }
 
+    /**
+     * setterメソッドと同等。
+     * @param setDead
+     * @return boolean
+     */
     public boolean setIsDead(boolean setDead){
         dead = setDead;
         return dead;
@@ -69,6 +74,12 @@ public class LivingThing {
             System.out.printf("%sは倒れた。\n", name);
         }
     }
+
+    /**
+     * hitPointのsetterメソッド同等。隠蔽化されたメンバ変数にアクセスしてdamageを反映させる。
+     * @param damage 受けたダメージ
+     * @return int
+     */
     public int setDamaged(int damage){
         hitPoint -= damage;
         return hitPoint;
